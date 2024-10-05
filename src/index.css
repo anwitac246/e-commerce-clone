@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: linear-gradient(to right, black, #4b0082);
+}
+.auth{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chat-component{
+  font-size: 2em;
+}

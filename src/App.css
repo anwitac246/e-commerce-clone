@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .auth{
+    background-image: linear-gradient(to right, black, #4b0082);
+    background-repeat: none;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 60 vw;
+  }
+  .logo{
+    font-size: 5em;
+    margin-bottom: 0.2em;
+  }
+  button{
+    cursor: pointer;
+  }
+  @keyframes particle {
+    0% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(-100px); opacity: 0; }
+  }
+  
+  .particle {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: #4b0082;
+    border-radius: 50%;
+    animation: particle 2s infinite;
+  }
+  
+  .login{
+    border-radius: 15px;
+    color: transparent; 
+    background: linear-gradient(to right,#4b0082, #800080); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(75, 0, 130, 0.6); 
+    font-size: 0.5em;
+    font-weight:bold;
+    box-shadow: 10px;
+    border-color: #4b0082;
+    margin: 20px;
+  }
+  .auth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    color: black;
+    font-family: Quicksand, sans-serif;
+    font-weight:bolder;
+    font-size: 3em;
+  }
+  .chat-component{
+    color: white;
+  }
+  
